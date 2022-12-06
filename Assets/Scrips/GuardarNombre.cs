@@ -20,7 +20,7 @@ public class GuardarNombre : MonoBehaviour
         {
             Debug.Log("El Nombre es:" +n);
             PlayerPrefs.SetString("Nombre", n);
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(1);
 
         }
     

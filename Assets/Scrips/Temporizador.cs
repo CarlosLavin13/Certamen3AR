@@ -28,7 +28,7 @@ public class Temporizador : MonoBehaviour
         else
         {
             timerUI.text = "GameOver!";
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(0);
         }
 
     }
